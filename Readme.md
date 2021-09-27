@@ -3,8 +3,8 @@
  Instead I decided to go for a Binary Tree implementation with recursion. The elements are inserted in the left by default if the node is null and the tree is search recursively to see if any elements exists and if not, then insert the new element based on the relationship it has with its previous node in the config file.
  
 PrintPath algorithm from 2 nodes involved 
-•	first finding if the 2 node existed
-•	finding the lca(Least common ancestor) among the 2 nodes
-•	finding the path from one node to lca
-•	finding the path from destination to lca
+•	first finding if the 2 node existed <br/>
+•	finding the lca(Least common ancestor) among the 2 nodes <br/>
+•	finding the path from one node to lca <br/>
+•	finding the path from destination to lca<br/>
 •	combining the both paths to get the complete path from source to destination
