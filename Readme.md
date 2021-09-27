@@ -1,4 +1,4 @@
-Where did I put my keys?
+<h1>Where did I put my keys?</h1> <br/>
  Initial approach was to take a undirected graph implementation, but the approach on how we could insert the values in a graph was a challenge.
  Instead I decided to go for a Binary Tree implementation with recursion. The elements are inserted in the left by default if the node is null and the tree is search recursively to see if any elements exists and if not, then insert the new element based on the relationship it has with its previous node in the config file.
  
